@@ -1,0 +1,5 @@
+SELECT TIMESTAMPDIFF(YEAR, created_at, CURDATE()) AS age FROM lms_employees;
+
+SELECT MAX(current_ctc) AS second_highest_ctc
+FROM lms_employees
+WHERE current_ctc < (SELECT MAX(current_ctc) FROM lms_employees);

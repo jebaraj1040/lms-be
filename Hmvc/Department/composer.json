@@ -1,0 +1,30 @@
+{
+    "name": "santhiveerapandi/department",
+    "description": "",
+    "authors": [
+        {
+            "name": "Santhiveerapandi Kamaraj",
+            "email": "santhiveerapandi@cloudrevelinnovation.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Hmvc\\Department\\": "app/",
+            "Hmvc\\Department\\Database\\Factories\\": "database/factories/",
+            "Hmvc\\Department\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hmvc\\Department\\Tests\\": "tests/"
+        }
+    }
+}
